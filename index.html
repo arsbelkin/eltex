@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отчёт о решении заданий Рейтинг-контроля</title>
+    <link rel="icon" href="./media/images/favicon.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #ff0;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .authors {
+            text-align: right;
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-top: 20px;
+        }
+
+        .task-section {
+            background-color: #333;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        .task-title {
+            color: #ff0;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .task-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .task-item {
+            margin-bottom: 10px;
+        }
+
+        .task-link {
+            color: #1e90ff;
+            font-size: 1.2rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .task-link:hover {
+            color: #ff0;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Отчёт о решении заданий Рейтинг-контроля</h1>
+            <div class="authors">
+                <p>Выполнили студенты: Белкин А.Я., Суюшкин А.А.</p>
+                <p>Группа: АС-23-05</p>
+                <p>Факультет: АиВТ</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="task-section">
+                <h2 class="task-title">ЗАДАНИЕ по ЛКР №1 "Изучение работы простейших электрических фильтров и простейших схем выпрямления переменного тока"</h2>
+                <ul class="task-list">
+                    <li class="task-item"><a href="javascript:vv1()" class="task-link">1. Применяя модель TINA, снять и построить зависимости коэффициентов передачи сглаживающих фильтров от частоты входного напряжения - К(f).</a></li>
+                    <li class="task-item"><a href="javascript:vv2()" class="task-link">2. Построить на модели TINA схему источника питания электроприборов постоянного напряжения(простейший выпрямитель): - источник первичного напряжения (сеть) 220в, 50гц; выпрямительные диоды; сглаживающий фильтр; трансформатор, нагрузка (≈12В, 10вт).</a></li>
+                </ul>
+            </section>
+
+            <section class="task-section">
+                <h2 class="task-title">ЗАДАНИЕ по ЛКР №2 "Изучение теории и построение моделей линейных усилителей сигналов"</h2>
+                <ul class="task-list">
+                    <li class="task-item"><a href="javascript:vv1_()" class="task-link">1. Смоделировать 'работу' биполярного транзистора и выявить его хар-ки</a></li>
+                    <li class="task-item"><a href="javascript:vv2_()" class="task-link">2. Смоделировать 'работу' простейшего усилителя переменного напряжения и выявить его хар-ки</a></li>
+                    <li class="task-item"><a href="javascript:vv3()" class="task-link">3. Собрать схему усилителя переменного напряжения на базе ОУ и выявить его хар-ки</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        function vv1() {
+            window.open('./LW1/task1_1/task1_1.html', 'n1', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+        function vv2() {
+            window.open('./LW1/task1_2/task1_2.html', 'n2', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+        function vv3_() {
+            window.open('3.htm', 'n3', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+        function vv_4() {
+            window.open('4.htm', 'n4', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+        function vv1_() {
+            window.open('./LW2/task2_1/task2_1.html', 'n1', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+        function vv2_() {
+            window.open('./LW2/task2_2/task2_2.html', 'n2', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+        function vv3() {
+            window.open('./LW2/task2_3/task2_3.html', 'n3', 'scrollbars=yes,toolbar=no,status=no,width=800,height=450,resizable=yes,top=30,left=30');
+        }
+    </script>
+</body>
+</html>
