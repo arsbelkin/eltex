@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Исследование простейших электрических фильтров</title>
+    <title>Исследование простейших RS-триггеров на логических эл-тах</title>
     <style>
         body {
             font-family: 'Comic Sans MS', cursive, sans-serif;
@@ -103,7 +103,7 @@
     <table class="center-table">
         <tr>
             <td>
-                <h1>Исследование<br>простейших электрических фильтров dfdsgsdgs</h1>
+                <h1>Исследование<br>простейших RS-триггеров на логических эл-тах</h1>
                 
                 <div class="authors">
                     <p>Выполнили студенты: Белкин А.Я., Суюшкин А.А.</p>
@@ -113,14 +113,20 @@
 
                 <hr class="red-hr">
 
+                <p style="text-align: center; font-size: 1.5rem; color: cyan;">
+                    На рисунке представлена краткая теория об асинхронном RS-триггере на логических эл-тах "ИЛИ-НЕ"
+                </p>
+                
+                <img src="./images/0.jpg" alt="краткая теория об асинхронном RS-триггере на логических эл-тах" class="main-image">
+
+                <hr class="red-hr">
+
                 <p style="text-align: center; font-size: 1.5rem; color: yellow;">
                     План работы:<br>
                     <small>
                     <ol>
                         <li>Собрать модель</li>
-                        <li>Снять выходное напряжение при входном U = 5В</li>
-                        <li>Рассчитать коэффициент К</li>
-                        <li>Построить график зависимости коэффициентов передачи сглаживающих фильтров от частоты входного напряжения</li>
+                        <li>Показать, что это RS-триггер</li>
                     </ol>
                     </small>
                 </p>
@@ -133,7 +139,7 @@
                             <td width="30%" align="center" bgcolor="black">
                                 <p style="font-size: 1.2rem; color: yellow;">
                                     Схема:<br>
-                                    <img src="./images/1.png" alt="Схема" style="width: 99%;">
+                                    <img src="./images/1.jpg" alt="Схема" style="width: 99%;">
                                 </p>
                             </td>
                             <td align="left">
@@ -167,14 +173,14 @@
         </tr>
     </table>
 
-    <div style="text-align: center; color: #e6ac0c"></div>
-        <a href="./tina/1.1.TSC" download>Скачать файл со схемой</a>
+    <div style="text-align: center;">
+        <a style="color: #e6ac0c;" href="./tina/RSNoOR.TSC" download>Скачать файл со схемой</a>
     </div>
 
     <script language="JavaScript">
     <!--    
         var num = 0;  
-        gran = 1;     
+        gran = 7;     
         
         function a() { 
             document.pic.src = "./tina/" + num + ".jpg";
